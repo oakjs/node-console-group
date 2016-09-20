@@ -30,6 +30,7 @@ export function install () {
 	console.log = consoleLog;
 	console.error = consoleError;
 	console.group = consoleGroup;
+	console.groupCollapsed = consoleGroup;
 	console.groupEnd = consoleGroupEnd;
 }
 
